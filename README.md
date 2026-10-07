@@ -42,9 +42,9 @@ Welcome to the ultimate developer and architect resource for **container moderni
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-- [📊 Star History](#-star-history)
 - [🤝 Support & Sponsorship](#-support--sponsorship)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📊 Star History](#-star-history)
 
 ---
 
@@ -116,19 +116,13 @@ Contributions are welcome! Follow these steps to submit new container modernizat
 
 ---
 
-## 📊 Star History 📈
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Container-Modernization-Migration-Tool&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Container-Modernization-Migration-Tool&type=date&legend=top-left)
-
----
-
 ## 🤝 Support & Sponsorship 💖
 
-If you find this container modernization and migration repository useful, please consider supporting the project:
+Thank you for exploring and utilizing this curated directory! Your engagement drives continuous research, maintenance, and community updates. If you find this container modernization and migration repository valuable, please consider supporting the project:
 
-- ⭐ **Star** this repository to increase visibility!
+- ⭐ **Star** this repository to help others discover it!
 - 🔀 **Fork** and share with fellow DevOps engineers, platform teams, and open-source advocates.
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+- ☕ **Buy Me a Coffee**: Support ongoing open-source curation and project updates via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
@@ -138,6 +132,12 @@ If you find this container modernization and migration repository useful, please
 - **Konveyor is the leading open-source modernization platform** — **CNCF Sandbox**, with **AI-powered code transformation** and **IDE integration** for multiple languages. **AWS App2Container containerizes Java and .NET applications without source code**. ☁️
 - **Google Migrate for Anthos merges migration and modernization** in a single step — Lift & Shift happens behind the scenes while outputting Kubernetes YAML and Dockerfiles. 🌐
 - **Always perform technical proof-of-concepts (PoC)** before attempting production server containerization or cluster migrations. 🛡️
+
+---
+
+## 📊 Star History 📈
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Container-Modernization-Migration-Tool&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Container-Modernization-Migration-Tool&type=date&legend=top-left)
 
 ---
 
