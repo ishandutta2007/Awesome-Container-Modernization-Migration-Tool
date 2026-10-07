@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.03)" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    /* CSS Animations for Dynamic Background Flow */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.08); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(180deg); }
+      100% { transform: translateY(0px) rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .bg-pulse {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .particle {
+      animation: floatParticle 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .flow-line {
+      stroke-dasharray: 10, 15;
+      animation: dashFlow 20s linear infinite;
+    }
+  </style>
+
+  <!-- Base Layer: Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- DYNAMIC / ANIMATED BACKGROUND ELEMENTS (Behind Text & Cards) -->
+  <g class="bg-pulse">
+    <circle cx="150" cy="80" r="180" fill="#38bdf8" opacity="0.15" filter="url(#glow)" />
+    <circle cx="1050" cy="280" r="220" fill="#818cf8" opacity="0.15" filter="url(#glow)" />
+    <circle cx="600" cy="180" r="130" fill="#c084fc" opacity="0.1" filter="url(#glow)" />
+  </g>
+
+  <!-- Connected Migration Flow Paths (Dynamic Background Lines) -->
+  <path class="flow-line" d="M 80 290 Q 300 330 600 290 T 1120 290" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" />
+  <path class="flow-line" d="M 50 70 Q 400 20 800 70 T 1150 50" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.3" />
+
+  <!-- Floating Decorative Nodes / Elements -->
+  <g class="particle" style="animation-delay: 0s;">
+    <rect x="90" y="240" width="36" height="36" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2" opacity="0.7" />
+    <text x="108" y="263" font-family="system-ui, sans-serif" font-size="14" fill="#38bdf8" text-anchor="middle" font-weight="bold">VM</text>
+  </g>
+  <g class="particle" style="animation-delay: -2s;">
+    <circle cx="1100" cy="90" r="22" fill="#1e293b" stroke="#c084fc" stroke-width="2" opacity="0.7" />
+    <text x="1100" y="95" font-family="system-ui, sans-serif" font-size="14" fill="#c084fc" text-anchor="middle" font-weight="bold">K8s</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: MAIN TITLE & SUBTITLE (Always Crisply Visible) -->
+  <g filter="url(#shadow)">
+    <!-- Main Title -->
+    <text x="600" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="900" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="0.5">
+      Awesome Container Modernization &amp; Migration
+    </text>
+
+    <!-- Subtitle / Catchphrase -->
+    <text x="600" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#e2e8f0" text-anchor="middle" opacity="0.95">
+      ⚡ Curated Enterprise Frameworks, Open-Source Toolkits, VM-to-Container Conversion &amp; K8s Migration 🐳
+    </text>
+  </g>
+
+  <!-- FOREGROUND METRIC CARDS / PILLS -->
+  <g filter="url(#shadow)">
+    <!-- Pill 1: Assessment -->
+    <g transform="translate(140, 200)">
+      <rect width="270" height="90" rx="14" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5" />
+      <text x="135" y="38" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">📊</text>
+      <text x="135" y="62" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#38bdf8" text-anchor="middle">Portfolio Assessment</text>
+      <text x="135" y="78" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Konveyor • Transformation Advisor</text>
+    </g>
+
+    <!-- Pill 2: Conversion -->
+    <g transform="translate(465, 200)">
+      <rect width="270" height="90" rx="14" fill="url(#cardGrad)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1.5" />
+      <text x="135" y="38" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">🔄</text>
+      <text x="135" y="62" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#818cf8" text-anchor="middle">VM-to-Container</text>
+      <text x="135" y="78" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">AWS App2Container • Migrate for Anthos</text>
+    </g>
+
+    <!-- Pill 3: Live Migration -->
+    <g transform="translate(790, 200)">
+      <rect width="270" height="90" rx="14" fill="url(#cardGrad)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1.5" />
+      <text x="135" y="38" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">🚀</text>
+      <text x="135" y="62" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#c084fc" text-anchor="middle">Live Pod &amp; State Migration</text>
+      <text x="135" y="78" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Podmotion • Snap • Incus</text>
+    </g>
+  </g>
+</svg>
