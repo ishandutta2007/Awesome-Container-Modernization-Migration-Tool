@@ -71,37 +71,37 @@ Welcome to the ultimate developer and architect resource for **container moderni
 
 ## 🔓 Open-Source GitHub Projects 🌾
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Podman](https://github.com/containers/podman)** [![Stars](https://img.shields.io/github/stars/containers/podman?style=social&color=white)](https://github.com/containers/podman/stargazers) 🦭  
-  **Daemonless container engine**, Apache-2.0 licensed. **30.5K+ GitHub stars** — Features `podman generate kube` to instantly translate local container configurations into production-ready Kubernetes YAML manifests, enabling seamless migration from local development to Kubernetes clusters. 🚀
+  **Daemonless container engine**, Apache-2.0 licensed. **30.5K+ GitHub_Stars** — Features `podman generate kube` to instantly translate local container configurations into production-ready Kubernetes YAML manifests, enabling seamless migration from local development to Kubernetes clusters. 🚀
 
 - **[Jib](https://github.com/GoogleContainerTools/jib)** [![Stars](https://img.shields.io/github/stars/GoogleContainerTools/jib?style=social&color=white)](https://github.com/GoogleContainerTools/jib/stargazers) ☕  
-  **Daemonless Java container builder**, Apache-2.0 licensed. **14.2K+ GitHub stars** — Builds OCI and Docker images directly from Java Maven and Gradle builds without requiring a Docker daemon or Dockerfile maintenance. Fast, reproducible, and optimized for container layer caching. ⚡
+  **Daemonless Java container builder**, Apache-2.0 licensed. **14.2K+ GitHub_Stars** — Builds OCI and Docker images directly from Java Maven and Gradle builds without requiring a Docker daemon or Dockerfile maintenance. Fast, reproducible, and optimized for container layer caching. ⚡
 
 - **[Dragonfly](https://github.com/dragonflyoss/dragonfly)** [![Stars](https://img.shields.io/github/stars/dragonflyoss/dragonfly?style=social&color=white)](https://github.com/dragonflyoss/dragonfly/stargazers) 🐉  
-  **P2P-based container image & artifact distribution system**, Apache-2.0 licensed. **13.8K+ GitHub stars** — CNCF Incubating project that dramatically speeds up large-scale container image downloads and cluster migrations by reducing registry bandwidth utilization by up to 90%. 📡
+  **P2P-based container image & artifact distribution system**, Apache-2.0 licensed. **13.8K+ GitHub_Stars** — CNCF Incubating project that dramatically speeds up large-scale container image downloads and cluster migrations by reducing registry bandwidth utilization by up to 90%. 📡
 
 - **[Incus](https://github.com/lxc/incus)** [![Stars](https://img.shields.io/github/stars/lxc/incus?style=social&color=white)](https://github.com/lxc/incus/stargazers) 🐧  
-  **Next-generation system container & VM manager**, Apache-2.0 licensed. **5.2K+ GitHub stars** — Powerful community fork of LXD featuring `incus-migrate` for physical-to-container (P2C) and VM-to-container migrations, with live migration support across hypervisors. 🔄
+  **Next-generation system container & VM manager**, Apache-2.0 licensed. **5.2K+ GitHub_Stars** — Powerful community fork of LXD featuring `incus-migrate` for physical-to-container (P2C) and VM-to-container migrations, with live migration support across hypervisors. 🔄
 
 - **[Crane](https://github.com/konveyor/crane)** [![Stars](https://img.shields.io/github/stars/konveyor/crane?style=social&color=white)](https://github.com/konveyor/crane/stargazers) 🏗️  
-  **Kubernetes workload migration engine**, Apache-2.0 licensed. **680+ GitHub stars** — Part of the CNCF Konveyor project. Automates the stateful and stateless migration of Kubernetes applications, PersistentVolumes, and custom resources between different Kubernetes clusters and cloud providers. 🛠️
+  **Kubernetes workload migration engine**, Apache-2.0 licensed. **680+ GitHub_Stars** — Part of the CNCF Konveyor project. Automates the stateful and stateless migration of Kubernetes applications, PersistentVolumes, and custom resources between different Kubernetes clusters and cloud providers. 🛠️
 
 - **[Konveyor Operator](https://github.com/konveyor/operator)** [![Stars](https://img.shields.io/github/stars/konveyor/operator?style=social&color=white)](https://github.com/konveyor/operator/stargazers) 🛠️  
-  **Enterprise application modernization platform**, Apache-2.0 licensed. **280+ GitHub stars** — CNCF Sandbox project providing comprehensive portfolio analysis, dependency mapping, source code scanning (for Java, .NET, Go, Python), and AI-assisted code transformation via Kai (Konveyor AI). 🧠
+  **Enterprise application modernization platform**, Apache-2.0 licensed. **280+ GitHub_Stars** — CNCF Sandbox project providing comprehensive portfolio analysis, dependency mapping, source code scanning (for Java, .NET, Go, Python), and AI-assisted code transformation via Kai (Konveyor AI). 🧠
 
 - **[Podmotion](https://github.com/komodor/podmotion)** [![Stars](https://img.shields.io/github/stars/komodor/podmotion?style=social&color=white)](https://github.com/komodor/podmotion/stargazers) 🚀  
-  **Kubernetes pod live migration toolkit**, MIT licensed. **210+ GitHub stars** — Employs CRIU (Checkpoint/Restore in Userspace) and eBPF networking to migrate active, running pods between Kubernetes nodes without state loss or connection disruption. ⚡
+  **Kubernetes pod live migration toolkit**, MIT licensed. **210+ GitHub_Stars** — Employs CRIU (Checkpoint/Restore in Userspace) and eBPF networking to migrate active, running pods between Kubernetes nodes without state loss or connection disruption. ⚡
 
 - **[Snap](https://github.com/weaversoftio/Snap)** [![Stars](https://img.shields.io/github/stars/weaversoftio/Snap?style=social&color=white)](https://github.com/weaversoftio/Snap/stargazers) 📸  
-  **Container checkpointing & live state migration platform**, Apache-2.0 licensed. **180+ GitHub stars** — Captures memory states of running containers for instant snapshotting, disaster recovery, and cluster-to-cluster live migration with minimal RTO/RPO. 🔒
+  **Container checkpointing & live state migration platform**, Apache-2.0 licensed. **180+ GitHub_Stars** — Captures memory states of running containers for instant snapshotting, disaster recovery, and cluster-to-cluster live migration with minimal RTO/RPO. 🔒
 
 - **[OpsMind](https://github.com/melonrind44345/opsmind)** [![Stars](https://img.shields.io/github/stars/melonrind44345/opsmind?style=social&color=white)](https://github.com/melonrind44345/opsmind/stargazers) 🔍  
-  **Ansible-powered legacy migration assessment tool**, MIT licensed. **95+ GitHub stars** — Automatically audits legacy enterprise OS environments, collects hardware/software facts via SSH, evaluates containerization feasibility, and outputs Dockerfiles and migration blueprints. 📑
+  **Ansible-powered legacy migration assessment tool**, MIT licensed. **95+ GitHub_Stars** — Automatically audits legacy enterprise OS environments, collects hardware/software facts via SSH, evaluates containerization feasibility, and outputs Dockerfiles and migration blueprints. 📑
 
 - **[Boxer](https://github.com/dphilla/boxer)** [![Stars](https://img.shields.io/github/stars/dphilla/boxer?style=social&color=white)](https://github.com/dphilla/boxer/stargazers) 📦  
-  **Dockerfile to WebAssembly (Wasm) converter**, MIT licensed. **65+ GitHub stars** — Transforms existing containerized workloads into ultra-lightweight, OS-independent WebAssembly (Wasm) modules for high-density, secure serverless deployments. 🌐
+  **Dockerfile to WebAssembly (Wasm) converter**, MIT licensed. **65+ GitHub_Stars** — Transforms existing containerized workloads into ultra-lightweight, OS-independent WebAssembly (Wasm) modules for high-density, secure serverless deployments. 🌐
 
 ---
 
